@@ -1,0 +1,10 @@
+{
+    "name": "first",
+    "version": "1.0.0",
+    "manifest_version": 1,
+    "project_type": "application",
+    "executable_type": "scratch",
+    "executable": "first.xml",
+    "author": "vera6c",
+    "minimum_firmware_version": 42
+}
