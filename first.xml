@@ -1,1 +1,36 @@
-<xml xmlns="http://www.w3.org/1999/xhtml"></xml>
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="comment_comment" id="123" x="139" y="-1591">
+    <field name="TEXT">here I go</field>
+    <next>
+      <block type="movement_forward" id="10">
+        <next>
+          <block type="movement_forward" id="20">
+            <next>
+              <block type="movement_right" id="30">
+                <next>
+                  <block type="movement_right" id="40">
+                    <next>
+                      <block type="movement_reverse" id="50">
+                        <next>
+                          <block type="movement_reverse" id="60">
+                            <next>
+                              <block type="movement_left" id="70">
+                                <next>
+                                  <block type="movement_left" id="80"></block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
