@@ -13,42 +13,4 @@
       </block>
     </next>
   </block>
-  <block type="movement_left" id="6" x="470" y="-1397">
-    <next>
-      <block type="movement_left" id="7">
-        <next>
-          <block type="movement_forward" id="8">
-            <next>
-              <block type="movement_right" id="9">
-                <next>
-                  <block type="movement_right" id="10">
-                    <next>
-                      <block type="movement_forward" id="11">
-                        <next>
-                          <block type="movement_forward" id="12">
-                            <next>
-                              <block type="movement_forward" id="13"></block>
-                            </next>
-                          </block>
-                        </next>
-                      </block>
-                    </next>
-                  </block>
-                </next>
-              </block>
-            </next>
-          </block>
-        </next>
-      </block>
-    </next>
-  </block>
-  <block type="movement_right" id="3" x="450" y="-1365">
-    <next>
-      <block type="movement_right" id="4">
-        <next>
-          <block type="movement_reverse" id="5"></block>
-        </next>
-      </block>
-    </next>
-  </block>
 </xml>
