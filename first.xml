@@ -1,39 +1,33 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_forward" id="2" x="128" y="-1582">
+  <block type="movement_forward" id="2" x="127" y="-1682">
     <next>
-      <block type="movement_right" id="3">
+      <block type="robot_delay" id="25" inline="true">
+        <value name="DELAY">
+          <block type="math_number" id="32">
+            <field name="NUM">2000</field>
+          </block>
+        </value>
         <next>
-          <block type="movement_right" id="4">
+          <block type="movement_stop" id="14"></block>
+        </next>
+      </block>
+    </next>
+  </block>
+  <block type="movement_left" id="6" x="470" y="-1397">
+    <next>
+      <block type="movement_left" id="7">
+        <next>
+          <block type="movement_forward" id="8">
             <next>
-              <block type="movement_reverse" id="5">
+              <block type="movement_right" id="9">
                 <next>
-                  <block type="movement_left" id="6">
+                  <block type="movement_right" id="10">
                     <next>
-                      <block type="movement_left" id="7">
+                      <block type="movement_forward" id="11">
                         <next>
-                          <block type="movement_forward" id="8">
+                          <block type="movement_forward" id="12">
                             <next>
-                              <block type="movement_right" id="9">
-                                <next>
-                                  <block type="movement_right" id="10">
-                                    <next>
-                                      <block type="movement_forward" id="11">
-                                        <next>
-                                          <block type="movement_forward" id="12">
-                                            <next>
-                                              <block type="movement_forward" id="13">
-                                                <next>
-                                                  <block type="movement_stop" id="14"></block>
-                                                </next>
-                                              </block>
-                                            </next>
-                                          </block>
-                                        </next>
-                                      </block>
-                                    </next>
-                                  </block>
-                                </next>
-                              </block>
+                              <block type="movement_forward" id="13"></block>
                             </next>
                           </block>
                         </next>
@@ -44,6 +38,15 @@
               </block>
             </next>
           </block>
+        </next>
+      </block>
+    </next>
+  </block>
+  <block type="movement_right" id="3" x="450" y="-1365">
+    <next>
+      <block type="movement_right" id="4">
+        <next>
+          <block type="movement_reverse" id="5"></block>
         </next>
       </block>
     </next>
