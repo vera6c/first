@@ -1,34 +1,29 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="comment_comment" id="1" x="120" y="-1692">
-    <field name="TEXT">here I go</field>
+  <block type="movement_forward" id="2" x="128" y="-1582">
     <next>
-      <block type="movement_forward" id="2">
+      <block type="movement_right" id="3">
         <next>
-          <block type="movement_right" id="3">
+          <block type="movement_right" id="4">
             <next>
-              <block type="movement_right" id="4">
+              <block type="movement_reverse" id="5">
                 <next>
-                  <block type="movement_reverse" id="5">
+                  <block type="movement_left" id="6">
                     <next>
-                      <block type="movement_left" id="6">
+                      <block type="movement_left" id="7">
                         <next>
-                          <block type="movement_left" id="7">
+                          <block type="movement_forward" id="8">
                             <next>
-                              <block type="movement_forward" id="8">
+                              <block type="movement_right" id="9">
                                 <next>
-                                  <block type="movement_right" id="9">
+                                  <block type="movement_right" id="10">
                                     <next>
-                                      <block type="movement_right" id="10">
+                                      <block type="movement_forward" id="11">
                                         <next>
-                                          <block type="movement_forward" id="11">
+                                          <block type="movement_forward" id="12">
                                             <next>
-                                              <block type="movement_forward" id="12">
+                                              <block type="movement_forward" id="13">
                                                 <next>
-                                                  <block type="movement_forward" id="13">
-                                                    <next>
-                                                      <block type="movement_stop" id="14"></block>
-                                                    </next>
-                                                  </block>
+                                                  <block type="movement_stop" id="14"></block>
                                                 </next>
                                               </block>
                                             </next>
