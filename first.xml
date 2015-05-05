@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="comment_comment" id="1" x="139" y="-1591">
+  <block type="comment_comment" id="1" x="120" y="-1692">
     <field name="TEXT">here I go</field>
     <next>
       <block type="movement_forward" id="2">
